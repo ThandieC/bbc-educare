@@ -14,10 +14,10 @@
 <body>
     <header class="header">
         <div class="col-md-3 col-lg-3 brand">
-            <div class="menu-icon">
+            <div id="menu-div" class="menu-icon">
                 <i class="material-icons">menu</i>
             </div>
-            <div class="close">
+            <div id="close-div" class="close">
                 <i>X</i>
             </div>
             <div class="logo">
@@ -29,23 +29,26 @@
         </div>
 
 
-        <nav class="col-md-9 col-lg-9 nav-bar">
+        <nav class="col-md-9 col-lg-9 nav-bar" id="menu">
             <ul>
                 <li>
-                    <a class="active" href="#">HOME</a>
+                    <a class="menu-item" href="#">HOME</a>
                 </li>
 
                 <li>
-                    <a href="#">ABOUT</a>
+                    <a class="menu-item" href="#">ABOUT</a>
                 </li>
                 <li>
-                    <a href="#">GALLERY</a>
+                    <a class="menu-item" href="#">GALLERY</a>
                 </li>
                 <li>
-                    <a href="#">FORMS</a>
+                    <a class="menu-item" href="#">VIDEOS</a>
                 </li>
                 <li>
-                    <a href="#">CONTACT</a>
+                    <a class="menu-item" href="#">FORMS</a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#">CONTACT</a>
                 </li>
             </ul>
         </nav>
@@ -54,13 +57,24 @@
 
     </header>
     <main class="row">
-        <div class="col-md-4 col-lg-2 side-nav">Side Nav</div>
-        <article class="col-md-8 col-lg-7">Articles</article>
-        <aside class="col-md-12 col-lg-3">Aside</aside>
+        <div class="main-bg">
+            <div class="img-div">
+                <img src="assets/images/general/kids-at-park.jpg" alt="Pre-school kids at the park.">
+            </div>
+            <div class="img-div">
+                <img src="assets/images/general/grad-2021.jpg" alt="Pre-school graduation 2021.">
+            </div>
+        </div>
+        <article class="col-md-12 col-lg-12">
+            <div id="welcomeDiv">
+                <div id="welcome">Welcome to <br> BBC Daycare and Educare Centre</div>
+                <img src="assets/images/general/bbc-logo.jpg" alt="BBC Logo" width="200px" height="200px">
+            </div>
+        </article>
     </main>
     <footer class="row">
         <div class="col-md-12 col-lg-12 footer">
-            Footer
+            &copy; Copyright 2021 | All Rights Reserved.
         </div>
     </footer>
     <script type="text/javascript" src="assets/scripts.js"></script>
